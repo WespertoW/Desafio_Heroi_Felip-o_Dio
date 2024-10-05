@@ -1,28 +1,43 @@
-//Variaveis
-let XP = 1000
-let NomeHeroi = "bengala torta"
-var Elo = XP
+//Variáveis
+let XP = 11267;
+let NomeHeroi = "Basquetobaro-san";
+let Nivel = XP;
+let QtdXpFalta;
 
 
-
-//Validação da quantidade de XP e Elo
+//Validação da quantidade de XP e Nivel
 if (XP <= 1000) {
-    ELO = "ferro"
+    Nivel = "FERRO"
+    QtdXpFalta = 1000 - XP;
 }else if (XP >= 1001 && XP <=2000 ) {
-    ELO = "Bronze"
+    Nivel = "BRONZE"
+    QtdXpFalta = 5000 - XP;
 }else if (XP >= 2001 && XP <=5000 ) {
-    ELO = "Prata"
+    Nivel = "PRATA"
+    QtdXpFalta = 5000 - XP;
 }else if (XP >= 5001 && XP <=7000 ) {
-    ELO = "Ouro"
+    Nivel = "OURO"
+    QtdXpFalta = 7000 - XP;
 }else if (XP >= 7001 && XP <=8000 ) {
-    ELO = "Platina"
+    Nivel = "PLATINA"
+    QtdXpFalta = 8000 - XP;
 }else if (XP >= 8001 && XP <=9000 ) {
-    ELO = "Ascendente"
+    Nivel = "ASCENDENTE"
+    QtdXpFalta = 9000 - XP;
 }else if (XP >= 9001 && XP <=10000 ) {
-    ELO = "Imortal"
+    Nivel = "IMORTAL"
+    QtdXpFalta = 10000 - XP;
 }else if(XP >= 10001 ) {
-    ELO = "Radiante"
+    Nivel = "RADIANTE"
+    QtdXpFalta = 0;
 }
 
 //Exibe a mensagem.
-console.log(`O Herói de nome: ${NomeHeroi} está no nível de: ${ELO}`);
+console.log(`O Herói : ${NomeHeroi} está no nível de: ${Nivel} e tem: ${XP} de XP.`);
+
+//Calcula quantidade de XP que falta para subir de nivel.
+if (QtdXpFalta > 0){
+    console.log(`Falta ${QtdXpFalta} para atingir o próximo nível.`)
+}else {
+    console.log(`${NomeHeroi} está no nível Máximo. Parabéns.`)
+}
