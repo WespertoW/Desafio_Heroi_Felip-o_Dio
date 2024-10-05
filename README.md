@@ -24,3 +24,7 @@ mostra quanto de XP o heroi tem Atualmente e Quanto de XP falta para ele subir p
 
 - **Gabriel Henrique (WespertoW)** - [LinkedIn](https://www.linkedin.com/in/WespertoW) - westech.contato@gmail.com
 
+## Agra decimentos
+
+Dio e Felipão da Dio.
+
