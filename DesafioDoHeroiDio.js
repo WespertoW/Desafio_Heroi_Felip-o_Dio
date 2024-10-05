@@ -1,10 +1,11 @@
+//Variaveis
 let XP = 1000
 let NomeHeroi = "bengala torta"
 var Elo = XP
 
 
 
-//Validação da quantidade de XP
+//Validação da quantidade de XP e Elo
 if (XP <= 1000) {
     ELO = "ferro"
 }else if (XP >= 1001 && XP <=2000 ) {
@@ -23,4 +24,5 @@ if (XP <= 1000) {
     ELO = "Radiante"
 }
 
+//Exibe a mensagem.
 console.log(`O Herói de nome: ${NomeHeroi} está no nível de: ${ELO}`);
