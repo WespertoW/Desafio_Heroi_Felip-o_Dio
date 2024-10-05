@@ -7,18 +7,20 @@ mostra quanto de XP o heroi tem Atualmente e Quanto de XP falta para ele subir p
 ## Índice
 
 - [Tecnologias Utilizadas](#tecnologias-utilizadas)
-- [Instalação](#instalação)
 - [Uso](#uso)
-- [Contribuição](#contribuição)
-- [Licença](#licença)
 - [Autores](#autores)
 - [Agradecimentos](#agradecimentos)
 
 ## Tecnologias Utilizadas
 
-Liste as tecnologias, linguagens e ferramentas que você usou para desenvolver o projeto. Por exemplo:
-
 - Linguagens: JavaScript.
 - IDE: Visual Studio, Git.
 
+## Uso 
+
+É necessario um ambiente de execução que permite que você execute código JavaScript fora de um navegador ex: Node.js.
+
+## Autores
+
+- **Gabriel Henrique (WespertoW)** - [LinkedIn](https://www.linkedin.com/in/WespertoW) - westech.contato@gmail.com
 
